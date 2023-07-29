@@ -9,6 +9,6 @@
       changed_when: False
 
   tasks:
-    - include: tasks/dev.yml
-    - include: tasks/graphics.yml
-    - include: tasks/utils.yml
+    - include_tasks: tasks/dev.yml
+    - include_tasks: tasks/graphics.yml
+    - include_tasks: tasks/utils.yml
