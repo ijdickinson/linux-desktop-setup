@@ -1,7 +1,7 @@
 ---
 
 - name: pgadmin4 gpg key
-  ansible.builti.apt_key:
+  ansible.builtin.apt_key:
     url: https://www.pgadmin.org/static/packages_pgadmin_org.pub
     state: present
 
