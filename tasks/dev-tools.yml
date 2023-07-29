@@ -24,7 +24,6 @@
     - java-common
     - jq
     - make
-    - pgadmin4
     - postgresql
     - postgresql-14
     - postgis
