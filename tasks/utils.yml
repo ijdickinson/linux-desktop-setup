@@ -6,7 +6,6 @@
     - aspell-en
     - baobab
     - bash-completion
-    - bitwarden
     - bluez
     - bolt
     - chrome-gnome-shell
@@ -18,9 +17,6 @@
     - desktop-file-utils
     - dictionaries-common
     - diffutils
-    - dropbox
-    - enchant
-    - enchant-2
     - eog
     - evince
     - evolution
@@ -34,7 +30,7 @@
     - gpg
     - gzip
     - hplip
-    - hpiip-gui
+    - hplip-gui
     - htop
     - hunspell
     - hunspell-en-gb
