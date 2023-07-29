@@ -1,9 +1,13 @@
 ---
+
 - hosts: localhost
-  connection: local
   become: true
+  pre_tasks:
+    - name: update repositories
+      apt: update_cache=yes
+      changed_when: False
 
   tasks:
-  - name: install htop
-    package:
-      name: htop
+    - include: tasks/dev.yml
+    - include: tasks/graphics.yml
+    - include: tasks/utils.yml

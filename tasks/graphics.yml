@@ -1,0 +1,15 @@
+---
+- name: Install graphics packages
+  apt: name={{item}}
+  with_items:
+    - gimp
+    - inkscape
+    - calibre
+    - cheese
+    - ghostscript
+    - graphviz
+    - imagemagick
+    - sane
+    - sane-airscan
+    - sane-utils
+    - xsane
