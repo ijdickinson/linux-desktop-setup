@@ -1,5 +1,5 @@
 ---
-- name: Install graphics packages
+- name: Install util packages
   apt: name={{item}}
   with_items:
     - aspell

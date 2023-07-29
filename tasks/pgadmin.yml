@@ -1,5 +1,10 @@
 ---
 
+- name: pgadmin4 gpg key
+  ansible.builti.apt_key:
+    url: https://www.pgadmin.org/static/packages_pgadmin_org.pub
+    state: present
+
 - name: Install pgadmin4 PPA
   ansible.builtin.apt_repository:
     repo: deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
