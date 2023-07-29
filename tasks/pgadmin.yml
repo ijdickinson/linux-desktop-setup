@@ -1,0 +1,9 @@
+---
+
+- name: Install pgadmin4 PPA
+  ansible.builtin.apt_repository:
+    repo: deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
+    state: present
+
+- name: Install pgadmin4
+  apt: name=pgadmin4
