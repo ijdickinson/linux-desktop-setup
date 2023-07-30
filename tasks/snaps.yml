@@ -1,6 +1,6 @@
 ---
 
 - name: install snap packages
-  community.general.snap
+  community.general.snap:
     name:
       bitwarden
