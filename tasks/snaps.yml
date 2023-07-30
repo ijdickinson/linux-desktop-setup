@@ -1,14 +1,14 @@
 ---
 
 - name: install snap packages
-  community.general.snap:
-    name:
-      bitwarden
-      btop
-      code
-      discord
-      exercism
-      kompare
-      skype
-      slack
-      spotify
+  community.general.snap: name={{item}}
+  with_items:
+    - bitwarden
+    - btop
+    - code
+    - discord
+    - exercism
+    - kompare
+    - skype
+    - slack
+    - spotify
