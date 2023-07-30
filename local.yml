@@ -13,3 +13,4 @@
     - include_tasks: tasks/graphics.yml
     - include_tasks: tasks/utils.yml
     - include_tasks: tasks/pgadmin.yml
+    - include_tasks: tasks/dropbox.yml
