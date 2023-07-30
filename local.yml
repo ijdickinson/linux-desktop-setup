@@ -16,3 +16,4 @@
     - include_tasks: tasks/dropbox.yml
     - include_tasks: tasks/snaps.yml
     - include_tasks: tasks/zoom.yml
+    - include_tasks: tasks/docker.yml
