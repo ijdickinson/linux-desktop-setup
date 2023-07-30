@@ -11,6 +11,11 @@
     state: present
     filename: dropbox
 
+- name: dropbox | install supporting packages
+  apt:
+    name: python3-gpg
+    state: present
+
 - name: dropbox | Install Dropbox
   apt:
     name: dropbox
