@@ -9,5 +9,5 @@
 
 - name: gnome setting
   dconf:
-    key: "org/gnome/desktop/background/picture-uri"
+    key: "/org/gnome/desktop/background/picture-uri"
     value: "'file:///usr/share/backgrounds/water-stone-background.png'"
