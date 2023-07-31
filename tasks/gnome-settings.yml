@@ -18,3 +18,286 @@
   community.general.dconf:
     key: "/org/gnome/desktop/background/picture-options"
     value: "'zoom'"
+
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/background/color-shading-type"
+    value: "'solid'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/background/picture-options"
+    value: "'zoom'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/background/show-desktop-icons"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/clock-show-date"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/clock-show-weekday"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/font-hinting"
+    value: "'medium'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/font-name"
+    value: "'Cantarell 11'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/gtk-enable-primary-paste"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/gtk-theme"
+    value: "'Adwaita'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/icon-theme"
+    value: "'Yaru'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/monospace-font-name"
+    value: "'Inconsolata Medium 11'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/show-battery-percentage"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/interface/text-scaling-factor"
+    value: "1.0"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/peripherals/keyboard/numlock-state"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/desktop/wm/preferences/titlebar-font"
+    value: "'Cantarell Bold 11'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/plugins/active-plugins"
+    value: "['modelines', 'docinfo', 'spell', 'time', 'filebrowser']"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/plugins/filebrowser/root"
+    value: "'file:///'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/plugins/filebrowser/tree-view"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/plugins/filebrowser/virtual-root"
+    value: "'file:///home/ian/Downloads'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/editor/editor-font"
+    value: "'Monospace 10'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/editor/scheme"
+    value: "'tango'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/editor/use-default-font"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/editor/wrap-last-split-mode"
+    value: "'word'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-font-body-pango"
+    value: "'Monospace 9'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-font-header-pango"
+    value: "'Sans 11'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-font-numbers-pango"
+    value: "'Sans 8'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-header"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-line-numbers"
+    value: "uint32 0"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-syntax-highlighting"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/gedit/preferences/print/print-wrap-mode"
+    value: "'word'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/nautilus/icon-view/default-zoom-level"
+    value: "'large'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/nautilus/list-view/default-zoom-level"
+    value: "'small'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/settings-daemon/peripherals/keyboard/numlock-state"
+    value: "'on'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/color/night-light-enabled"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/color/night-light-schedule-automatic"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/color/night-light-schedule-from"
+    value: "23.0"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/color/night-light-temperature"
+    value: "uint32 2700"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/app-switcher/current-workspace-only"
+    value: "true"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/extensions/clipboard-indicator/history-size"
+    value: "20"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/extensions/clipboard-indicator/notify-on-copy"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/extensions/desktop-icons/icon-size"
+    value: "'small'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/extensions/desktop-icons/show-home"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/extensions/desktop-icons/show-trash"
+    value: "false"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/shell/window-switcher/app-icon-mode"
+    value: "'both'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/terminal/legacy/theme-variant"
+    value: "'dark'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/terminal/legacy/keybindings/reset-and-clear"
+    value: "'<Primary><Shift>k'"
+
+- name: gnome setting
+  become_user: ian
+  dconf:
+    key: "/org/gnome/terminal/legacy/keybindings/select-all"
+    value: "'<Primary><Shift>a'"
