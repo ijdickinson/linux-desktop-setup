@@ -1,0 +1,13 @@
+---
+
+- name: copy wallpaper file
+  copy:
+    src: files/water-stone-background.png
+    dest: /usr/share/backgrounds/water-stone-backgroud.png
+    owner: root
+    group: root
+
+- name: gnome setting
+  dconf:
+    key: "org/gnome/desktop/background/picture-uri"
+    value: "'file:///usr/share/backgrounds/water-stone-background.png'"
