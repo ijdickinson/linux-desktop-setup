@@ -56,6 +56,7 @@
     - pandoc
     - psensor
     - psutils
+    - python3-psutil
     - qpdf
     - recordmydesktop
     - rfkill
