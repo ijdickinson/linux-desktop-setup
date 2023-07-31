@@ -55,6 +55,7 @@
     - p7zip
     - pandoc
     - psensor
+    - psutils
     - qpdf
     - recordmydesktop
     - rfkill
