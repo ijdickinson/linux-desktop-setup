@@ -2,8 +2,8 @@
 
 - name: copy wallpaper file
   copy:
-    src: files/water-stone-background.png
-    dest: /usr/share/backgrounds/water-stone-backgroud.png
+    src: "files/water-stone-background.png"
+    dest: "/usr/share/backgrounds/water-stone-background.png"
     owner: root
     group: root
 
