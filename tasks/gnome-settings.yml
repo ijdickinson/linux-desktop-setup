@@ -8,6 +8,6 @@
     group: root
 
 - name: gnome setting
-  dconf:
+  community.general.dconf:
     key: "/org/gnome/desktop/background/picture-uri"
     value: "'file:///usr/share/backgrounds/water-stone-background.png'"
