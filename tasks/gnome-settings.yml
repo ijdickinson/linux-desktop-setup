@@ -12,3 +12,9 @@
   community.general.dconf:
     key: "/org/gnome/desktop/background/picture-uri"
     value: "'file:///usr/share/backgrounds/water-stone-background.png'"
+
+- name: gnome setting
+  become_user: ian
+  community.general.dconf:
+    key: "/org/gnome/desktop/background/picture-options"
+    value: "'zoom'"
