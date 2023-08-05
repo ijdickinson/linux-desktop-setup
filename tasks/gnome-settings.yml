@@ -305,90 +305,90 @@
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "/org/gnome/settings-daemon/plugins/media-keys/terminal"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/terminal"
     value: "['<Control><Alt>slash']"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "/org/gnome/settings-daemon/plugins/media-keys/www"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/www"
     value: "['HomePage']"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "/org/gnome/terminal/legacy/profiles:/default"
+    key: "/org/gnome/terminal/legacy/profiles:/default"
     value: "'30487c47-8064-4de9-b1a0-ec7b10d301a7'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "/org/gnome/terminal/legacy/profiles:/list"
+    key: "/org/gnome/terminal/legacy/profiles:/list"
     value: "['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '30487c47-8064-4de9-b1a0-ec7b10d301a7']"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"background-color"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"background-color"
     value: "'rgb(0,43,54)'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"default-size-columns"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"default-size-columns"
     value: "120"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"default-size-rows"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"default-size-rows"
     value: "48"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"font"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"font"
     value: "'Inconsolata Medium 12'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"foreground-color"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"foreground-color"
     value: "'rgb(131,148,150)'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"scrollback-unlimited"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"scrollback-unlimited"
     value: "true"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"text-blink-mode"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"text-blink-mode"
     value: "'never'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"use-system-font"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"use-system-font"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"use-theme-colors"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"use-theme-colors"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-  key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"visible-name"
+    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"visible-name"
     value: "'ijd-dark'"
 
