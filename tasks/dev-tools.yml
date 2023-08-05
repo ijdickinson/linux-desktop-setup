@@ -37,3 +37,8 @@
     - virtualbox-guest-additions-iso
     - xgrep
     - xsltproc
+
+- name: install asdf
+  become_user: ian
+  ansible.builtin.shell: git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+
