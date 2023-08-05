@@ -38,8 +38,14 @@
     - xgrep
     - xsltproc
 
+- name: gather asdf install status
+  become_user: ian
+  stat: 
+    path: /home/ian/.asdf
+  register: asdf_status
+  
 - name: install asdf
   become_user: ian
   ansible.builtin.shell: git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
-    creates: /home/ian/.asdf
+  when: not asdf_status.stat.exists
 
