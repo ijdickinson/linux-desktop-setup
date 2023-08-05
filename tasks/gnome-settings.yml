@@ -329,66 +329,66 @@
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/audible-bell"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/background-color"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/background-color"
     value: "'rgb(0,43,54)'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/default-size-columns"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/default-size-columns"
     value: "120"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/default-size-rows"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/default-size-rows"
     value: "48"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/font"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/font"
     value: "'Inconsolata Medium 12'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/foreground-color"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/foreground-color"
     value: "'rgb(131,148,150)'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/scrollback-unlimited"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/scrollback-unlimited"
     value: "true"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/text-blink-mode"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/text-blink-mode"
     value: "'never'"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/use-system-font"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/use-system-font"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/use-theme-colors"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/use-theme-colors"
     value: "false"
 
 - name: gnome setting
   become_user: ian
   dconf:
-    key: "org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/visible-name"
+    key: "/org/gnome/terminal/legacy/profiles:/:30487c47-8064-4de9-b1a0-ec7b10d301a7/visible-name"
     value: "'ijd-dark'"
 
