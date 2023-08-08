@@ -22,6 +22,7 @@
     - evolution
     - findutils
     - fonts-inconsolata
+    - fonts-cantarell
     - fwupd
     - gawk
     - gedit
