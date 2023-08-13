@@ -23,6 +23,8 @@
     - gh
     - java-common
     - jq
+    - libncurses5-dev
+    - libssl-dev
     - make
     - postgresql
     - postgis
