@@ -15,6 +15,7 @@
     - default-jdk
     - direnv
     - docker-compose
+    - fop
     - g++
     - gcc
     - gdal-bin
@@ -25,6 +26,8 @@
     - jq
     - libncurses5-dev
     - libssl-dev
+    - libwxgtk-webview3.2-dev
+    - libxml2-utils
     - make
     - postgresql
     - postgis
@@ -33,6 +36,8 @@
     - tidy
     - time
     - tmux
+    - unixodbc
+    - unixodbc-dev
     - vim
     - virtualbox
     - virtualbox-guest-utils
