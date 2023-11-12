@@ -24,7 +24,11 @@
     - gh
     - java-common
     - jq
+    - libbz2-dev
+    - libffi-dev
     - libncurses5-dev
+    - libreadline-dev
+    - libsqlite3-dev
     - libssl-dev
     - libwxgtk-webview3.2-dev
     - libxml2-utils
@@ -35,6 +39,7 @@
     - qgis
     - tidy
     - time
+    - tk-dev
     - tmux
     - unixodbc
     - unixodbc-dev
