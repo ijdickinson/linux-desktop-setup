@@ -32,7 +32,9 @@
     - libssl-dev
     - libwxgtk-webview3.2-dev
     - libxml2-utils
+    - liblzma-dev
     - make
+    - net-tools
     - postgresql
     - postgis
     - postgresql-client
